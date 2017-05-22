@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   weekendDayButton: {
-    backgroundColor: '#fafafa',
+    backgroundColor: '#565656',
   },
   dayButton: {
     alignItems: 'center',

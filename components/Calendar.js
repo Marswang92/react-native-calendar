@@ -349,7 +349,7 @@ export default class Calendar extends Component {
 
     return (
       <View style={[styles.calendarContainer, this.props.customStyle.calendarContainer]}>
-        {this.renderTopBar()}
+        {this.props.renderTopBar && this.renderTopBar()}
         {this.renderHeading(this.props.titleFormat)}
         {this.props.scrollEnabled ?
           <ScrollView
